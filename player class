@@ -1,3 +1,53 @@
+Classes = {
+"barbarian": None, 
+"bard": None, 
+"cleric": None, 
+"druid": None, 
+"fighter": None,
+"monk": None, 
+"palidin": None, 
+"ranger": None, 
+"rouge": None, 
+"sorcerer": None, 
+"wizard": None
+}
+
+Races = {
+"human": None, 
+"elf": None, 
+"half-elf": None, 
+"half-orc": None, 
+"gnome": None,
+"halfling": None, 
+"dwarf": None
+}
+
+Alignments = {
+0 : "lg",
+1 : "ln",
+2 : "le",
+3 : "ng",
+4 : "tn",
+5 : "ne",
+6 : "cg",
+7 : "cn",
+8 : "ce"
+}
+
+Deities = {
+"baccob": None, 
+"pelor": None, 
+"kord": None, 
+"moradin": None, 
+"hextor": None,
+"st. cuthbert": None, 
+"nerull": None, 
+"vecna": None, 
+"heronious": None, 
+"grumesh": None, 
+"olidamara": None
+}
+
 class player(object):
   def __init__(self, name = None):
     if not name:
