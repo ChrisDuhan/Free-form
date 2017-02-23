@@ -1,0 +1,17 @@
+import random
+
+class Dice(object):
+  def __init__(self, sides = None):
+    if not sides:
+      self.sides = 2
+    else:
+      self.sides = sides
+  
+  def __str__(self):
+    return str(self.roll_die())
+  
+  def roll_die(self):
+    return random.randint(1, self.sides)
+
+  def sum_dice(self, other):
+    return self.roll_die() + other.roll_die()
