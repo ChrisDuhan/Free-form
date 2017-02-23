@@ -1,0 +1,12 @@
+class player(object):
+  def __init__(self, name = None):
+    if not name:
+      self.player_name = "NPC"
+    else:
+      self.player_name = name
+      self.player_race = input("Player race: ")
+      self.player_class = input("Player class: ")
+      self.player_age = input("Player age: ")
+      self.player_align = input("Player alignment: ")
+      self.player_god = input("Player deity: ")
+      self.player_stats = input("Ability scores: ")
