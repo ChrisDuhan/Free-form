@@ -35,7 +35,8 @@ Alignments = {
 }
 
 Deities = {
-"baccob": None, 
+"baccob": None,
+"corellon larethian": None,
 "pelor": None, 
 "kord": None, 
 "moradin": None, 
