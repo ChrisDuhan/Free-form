@@ -37,16 +37,23 @@ Alignments = {
 Deities = {
 "baccob": None,
 "corellon larethian": None,
-"pelor": None, 
-"kord": None, 
-"moradin": None, 
+"ehlonna": None,
+"erythnul": None,
+"fharlanghn": None,
+"garl glittergold": None,
+"gruumsh": None,
+"heronious": None,
 "hextor": None,
-"st. cuthbert": None, 
-"nerull": None, 
-"vecna": None, 
-"heronious": None, 
-"grumesh": None, 
-"olidamara": None
+"kord": None,
+"moradin": None,
+"nerull": None,
+"obad-hai": None,
+"olidamara": None,
+"pelor": None,
+"st. cuthbert": None,
+"vecna": None,
+"wee jas": None,
+"yondalla": None
 }
 
 class player(object):
